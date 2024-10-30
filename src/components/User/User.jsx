@@ -8,7 +8,7 @@ const User = ({user}) => {
     const  { id, name,  email, phone} = user
 
     const handleDetails = ()=>{
-        navigate(`/users/${id}`)
+        navigate(`/user/${id}`)
     }
 
     const userStyle ={

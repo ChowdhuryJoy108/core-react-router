@@ -1,0 +1,14 @@
+nav {
+    display: inline-flex;
+    gap: 50px;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: greenyellow;
+}
